@@ -20,8 +20,6 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_noautoreq	'perl(Your::Module::Here)'
-
 %description
 CPANPLUS provides command-line access to the CPAN interface. Three
 functions, fetch, install and shell are imported in to your namespace.

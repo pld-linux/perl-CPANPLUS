@@ -1,6 +1,7 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_with	tests	# perform "make test" (may fail depending on what you 
+			# have in your ~/.gnupg dir)
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	CPANPLUS

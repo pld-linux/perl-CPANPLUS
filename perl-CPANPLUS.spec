@@ -8,7 +8,7 @@ Summary:	Ameliorated interface to CPAN
 Summary(pl):	Ulepszony intefejs do CPAN-u
 Name:		perl-CPANPLUS
 Version:	0.044
-Release:	2
+Release:	3
 License:	Same as Perl itself
 Group:		Development/Languages/Perl
 #Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
@@ -59,4 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README ChangeLog AUTHORS
 %{perl_vendorlib}/CPANPLUS.pm
 %{perl_vendorlib}/CPANPLUS
+%exclude %{perl_vendorlib}/CPANPLUS/*.pod
 %{_mandir}/man3/*

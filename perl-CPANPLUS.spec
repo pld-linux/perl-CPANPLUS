@@ -7,14 +7,14 @@
 Summary:	Ameliorated interface to CPAN
 Summary(pl):	Ulepszony interfejs do CPAN-u
 Name:		perl-CPANPLUS
-Version:	0.049
+Version:	0.0499
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 #Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
 Source0:	http://www.cpan.org/modules/by-authors/id/A/AU/AUTRIJUS/%{pnam}-%{version}.tar.gz
-# Source0-md5:	edbafc6e15d1e73c951056dcb3164c40
+# Source0-md5:	2a4bb58d27a5647dc42bbd4878600ee4
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch

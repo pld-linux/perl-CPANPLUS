@@ -3,7 +3,7 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pnam	CPANPLUS
+%define		pnam	CPANPLUS
 Summary:	Ameliorated interface to CPAN
 Summary(pl):	Ulepszony interfejs do CPAN-u
 Name:		perl-CPANPLUS

@@ -1,7 +1,7 @@
-
+#
 # Conditional build:
 %bcond_without tests	# do not perform "make test"
-
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pnam	CPANPLUS
 Summary:	Ameliorated interface to CPAN
@@ -9,7 +9,8 @@ Summary(pl):	Ulepszony intefejs do CPAN-u
 Name:		perl-CPANPLUS
 Version:	0.045
 Release:	1
-License:	Same as Perl itself
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 #Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
 Source0:	http://search.cpan.org/CPAN/authors/id/A/AU/AUTRIJUS/%{pnam}-%{version}.tar.gz
@@ -32,6 +33,17 @@ addition to providing an OO interface, CPANPLUS::Backend is more
 efficient than CPANPLUS for multiple operations. CPANPLUS is provided
 primarily for the command-line, in order to be backwards compatible
 with CPAN.pm.
+
+%description -l pl
+CPANPLUS daje dostêp z linii poleceñ do interfejsu CPAN. Importowane
+do przestrzeni nazw s± trzy funkcje: fetch, install i shell. Dodatkowo
+get jest aliasem do fetch.
+
+Mimo ¿e modu³u CPANPLUS mo¿na u¿ywaæ w skryptach, zaleca siê w takich
+sytuacjach u¿ywaæ CPANPLUS::Backend. Oprócz dostarczania obiektowo
+zorientowanego interfejsu, CPANPLUS::Backend jest bardziej wydajny ni¿
+CPANPLUS przy wielu operacjach. CPANPLUS s³u¿y g³ównie do u¿ywania z
+linii poleceñ, aby by³ wstecznie kompatybilny z CPAN.pm.
 
 %prep
 %setup -q -n %{pnam}-%{version}

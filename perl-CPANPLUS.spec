@@ -9,7 +9,7 @@ Summary:	Ameliorated interface to CPAN
 Summary(pl):	Ulepszony interfejs do CPAN-u
 Name:		perl-CPANPLUS
 Version:	0.0499
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -20,6 +20,8 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		_noautoreq	'perl(Your::Module::Here)'
 
 %description
 CPANPLUS provides command-line access to the CPAN interface. Three

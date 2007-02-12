@@ -6,7 +6,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	CPANPLUS
 Summary:	Ameliorated interface to CPAN
-Summary(pl):	Ulepszony interfejs do CPAN-u
+Summary(pl.UTF-8):   Ulepszony interfejs do CPAN-u
 Name:		perl-CPANPLUS
 Version:	0.0499
 Release:	4
@@ -35,16 +35,16 @@ efficient than CPANPLUS for multiple operations. CPANPLUS is provided
 primarily for the command-line, in order to be backwards compatible
 with CPAN.pm.
 
-%description -l pl
-CPANPLUS daje dostÍp z linii poleceÒ do interfejsu CPAN. Importowane
-do przestrzeni nazw s± trzy funkcje: fetch, install i shell. Dodatkowo
+%description -l pl.UTF-8
+CPANPLUS daje dostƒôp z linii polece≈Ñ do interfejsu CPAN. Importowane
+do przestrzeni nazw sƒÖ trzy funkcje: fetch, install i shell. Dodatkowo
 get jest aliasem do fetch.
 
-Mimo øe modu≥u CPANPLUS moøna uøywaÊ w skryptach, zaleca siÍ w takich
-sytuacjach uøywaÊ CPANPLUS::Backend. OprÛcz dostarczania obiektowo
-zorientowanego interfejsu, CPANPLUS::Backend jest bardziej wydajny niø
-CPANPLUS przy wielu operacjach. CPANPLUS s≥uøy g≥Ûwnie do uøywania z
-linii poleceÒ, aby by≥ wstecznie kompatybilny z CPAN.pm.
+Mimo ≈ºe modu≈Çu CPANPLUS mo≈ºna u≈ºywaƒá w skryptach, zaleca siƒô w takich
+sytuacjach u≈ºywaƒá CPANPLUS::Backend. Opr√≥cz dostarczania obiektowo
+zorientowanego interfejsu, CPANPLUS::Backend jest bardziej wydajny ni≈º
+CPANPLUS przy wielu operacjach. CPANPLUS s≈Çu≈ºy g≈Ç√≥wnie do u≈ºywania z
+linii polece≈Ñ, aby by≈Ç wstecznie kompatybilny z CPAN.pm.
 
 %prep
 %setup -q -n %{pnam}-%{version}

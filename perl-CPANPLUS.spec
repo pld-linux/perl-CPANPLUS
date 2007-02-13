@@ -6,7 +6,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	CPANPLUS
 Summary:	Ameliorated interface to CPAN
-Summary(pl.UTF-8):   Ulepszony interfejs do CPAN-u
+Summary(pl.UTF-8):	Ulepszony interfejs do CPAN-u
 Name:		perl-CPANPLUS
 Version:	0.0499
 Release:	4

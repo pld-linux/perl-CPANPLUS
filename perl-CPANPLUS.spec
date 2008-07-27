@@ -9,7 +9,7 @@ Summary:	Ameliorated interface to CPAN
 Summary(pl.UTF-8):	Ulepszony interfejs do CPAN-u
 Name:		perl-CPANPLUS
 Version:	0.0499
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

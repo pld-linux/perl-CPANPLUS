@@ -2,9 +2,9 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test" (may fail depending on what you 
 			# have in your ~/.gnupg dir)
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pnam	CPANPLUS
+%include	/usr/lib/rpm/macros.perl
 Summary:	Ameliorated interface to CPAN
 Summary(pl.UTF-8):	Ulepszony interfejs do CPAN-u
 Name:		perl-CPANPLUS
@@ -16,6 +16,7 @@ Group:		Development/Languages/Perl
 #Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
 Source0:	http://www.cpan.org/modules/by-authors/id/A/AU/AUTRIJUS/%{pnam}-%{version}.tar.gz
 # Source0-md5:	2a4bb58d27a5647dc42bbd4878600ee4
+URL:		http://search.cpan.org/dist/CPANPLUS/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch

@@ -4,7 +4,6 @@
 			# have in your ~/.gnupg dir)
 
 %define		pnam	CPANPLUS
-%include	/usr/lib/rpm/macros.perl
 Summary:	Ameliorated interface to CPAN
 Summary(pl.UTF-8):	Ulepszony interfejs do CPAN-u
 Name:		perl-CPANPLUS
